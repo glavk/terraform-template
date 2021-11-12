@@ -1,2 +1,3 @@
-# terraform-template
-Templates for Terraform code
+# Templates for Terraform
+
+Templates for development Terraform, Packer code.
