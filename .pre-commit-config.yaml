@@ -5,17 +5,17 @@ repos:
       - id: terraform-fmt
       - id: terraform-validate
       - id: tflint
-      - id: shellcheck
-      - id: packer-validate
+      #- id: shellcheck
+      #- id: packer-validate
 
 - repo: https://github.com/antonbabenko/pre-commit-terraform
-  rev: v1.56.0
+  rev: v1.71.0
   hooks:
     - id: terraform_docs
-    - id: infracost_breakdown
+    #- id: infracost_breakdown
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.0.1
+  rev: v4.2.0
   hooks:
     # Git style
     - id: check-added-large-files
